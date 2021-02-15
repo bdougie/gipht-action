@@ -1,6 +1,4 @@
-name: gipht-bot
-description: provides a gipht on command
-runs:
+name: gipht-action
   using: docker
   image: Dockerfile
 branding:
