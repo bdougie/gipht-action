@@ -1,0 +1,8 @@
+name: gipht-bot
+description: provides a gipht on command
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: wind
+  color: white

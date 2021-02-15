@@ -1,0 +1,15 @@
+{
+  "name": "gipht-bot",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "actions-toolkit": "^6.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
