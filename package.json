@@ -7,7 +7,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "actions-toolkit": "^6.0.1"
+    "actions-toolkit": "^6.0.1",
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "jest": "^26.0.1"
