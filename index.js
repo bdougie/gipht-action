@@ -13,6 +13,10 @@ Toolkit.run(async tools => {
     const url = `http://api.giphy.com/v1/gifs/translate?api_key=${giphyAPIKey}&s=${searchTerm}`
     const gifURL = await fetchGif(url)
 
+    console.log(tools.context)
+    console.log("---------------------------------")
+
+    console.log(tools)
     const params = tools.context.issue({body: `![](${gifURL})` })
 
     return tools.context.github.issues.createComment(params)
