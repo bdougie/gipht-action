@@ -1,5 +1,7 @@
 const { Toolkit } = require('actions-toolkit')
 
+const giphyAPIKey = process.env.GIPHY_TOKEN
+
 // Run your GitHub Action!
 Toolkit.on('issue_comment.created', async context => {
   // return if you ain't suppose be here
