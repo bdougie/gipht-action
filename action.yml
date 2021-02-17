@@ -1,7 +1,8 @@
+description: an action that giphts
 name: gipht-action
+runs:
   using: docker
   image: Dockerfile
-description: an action that giphts
 branding:
   icon: wind
   color: white
