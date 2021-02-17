@@ -1,6 +1,7 @@
 name: gipht-action
   using: docker
   image: Dockerfile
+description: an action that giphts
 branding:
   icon: wind
   color: white
