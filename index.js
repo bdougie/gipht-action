@@ -1,5 +1,9 @@
 const { Toolkit } = require('actions-toolkit')
 
+const tools = new Toolkit({
+  secrets: ['GITHUB_TOKEN', "GIPHY_TOKEN"]
+})
+
 const fetchGif = require('./utils/giphy.js')
 const giphyAPIKey = process.env.GIPHY_TOKEN
 
